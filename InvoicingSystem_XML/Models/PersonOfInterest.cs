@@ -3,7 +3,7 @@
 namespace InvoicingSystem_XMl.Models
 {
     // ReSharper disable once IdentifierTypo
-    public abstract class Enterprenour
+    public abstract class PersonOfInterest
     {
         #region Properties
 

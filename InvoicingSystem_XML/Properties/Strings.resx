@@ -117,7 +117,28 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="ERR_CITY_EMPTY" xml:space="preserve">
+    <value>Město není vyplněno.</value>
+  </data>
+  <data name="ERR_CONTRACTOR_BUILDING_EMPTY" xml:space="preserve">
+    <value>Číslo domu není vyplněno.</value>
+  </data>
+  <data name="ERR_CONTRACTOR_BUILDING_INVALID" xml:space="preserve">
+    <value>Číslo domu není ve správném tvaru.</value>
+  </data>
   <data name="ERR_CONTRACTOR_NAME_INVALID" xml:space="preserve">
     <value>Jméno dodavatele není vyplněno.</value>
+  </data>
+  <data name="ERR_COUNTRY_EMPTY" xml:space="preserve">
+    <value>Země není vyplněna.</value>
+  </data>
+  <data name="ERR_STREET_EMPTY" xml:space="preserve">
+    <value>Ulice není vyplněna.</value>
+  </data>
+  <data name="ERR_ZIPCODE_EMPTY" xml:space="preserve">
+    <value>Poštovní směrovací číslo není vyplněno.</value>
+  </data>
+  <data name="ERR_ZIPCODE_INVALID" xml:space="preserve">
+    <value>Poštovní směrovací číslo neobsahuje žádné číslo.</value>
   </data>
 </root>

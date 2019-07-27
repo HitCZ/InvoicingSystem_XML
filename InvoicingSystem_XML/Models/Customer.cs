@@ -2,7 +2,7 @@
 
 namespace InvoicingSystem_XML.Models
 {
-    public class Customer : Enterprenour
+    public class Customer : PersonOfInterest
     {
         #region Properties
 

@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace InvoicingSystem_XML {
+namespace InvoicingSystem_XML.Properties {
     using System;
     
     
@@ -39,7 +39,7 @@ namespace InvoicingSystem_XML {
         internal static global::System.Resources.ResourceManager ResourceManager {
             get {
                 if (object.ReferenceEquals(resourceMan, null)) {
-                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("InvoicingSystem_XML.Strings", typeof(Strings).Assembly);
+                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("InvoicingSystem_XML.Properties.Strings", typeof(Strings).Assembly);
                     resourceMan = temp;
                 }
                 return resourceMan;
@@ -61,11 +61,74 @@ namespace InvoicingSystem_XML {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Město není vyplněno..
+        /// </summary>
+        internal static string ERR_CITY_EMPTY {
+            get {
+                return ResourceManager.GetString("ERR_CITY_EMPTY", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Číslo domu není vyplněno..
+        /// </summary>
+        internal static string ERR_CONTRACTOR_BUILDING_EMPTY {
+            get {
+                return ResourceManager.GetString("ERR_CONTRACTOR_BUILDING_EMPTY", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Číslo domu není ve správném tvaru..
+        /// </summary>
+        internal static string ERR_CONTRACTOR_BUILDING_INVALID {
+            get {
+                return ResourceManager.GetString("ERR_CONTRACTOR_BUILDING_INVALID", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Jméno dodavatele není vyplněno..
         /// </summary>
         internal static string ERR_CONTRACTOR_NAME_INVALID {
             get {
                 return ResourceManager.GetString("ERR_CONTRACTOR_NAME_INVALID", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Země není vyplněna..
+        /// </summary>
+        internal static string ERR_COUNTRY_EMPTY {
+            get {
+                return ResourceManager.GetString("ERR_COUNTRY_EMPTY", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Ulice není vyplněna..
+        /// </summary>
+        internal static string ERR_STREET_EMPTY {
+            get {
+                return ResourceManager.GetString("ERR_STREET_EMPTY", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Poštovní směrovací číslo není vyplněno..
+        /// </summary>
+        internal static string ERR_ZIPCODE_EMPTY {
+            get {
+                return ResourceManager.GetString("ERR_ZIPCODE_EMPTY", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Poštovní směrovací číslo neobsahuje žádné číslo..
+        /// </summary>
+        internal static string ERR_ZIPCODE_INVALID {
+            get {
+                return ResourceManager.GetString("ERR_ZIPCODE_INVALID", resourceCulture);
             }
         }
     }

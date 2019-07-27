@@ -4,6 +4,7 @@ using System.ComponentModel;
 using System.ComponentModel.Composition;
 using System.Linq;
 using System.Runtime.CompilerServices;
+using System.Windows;
 using System.Windows.Controls;
 using Microsoft.Practices.ServiceLocation;
 
@@ -33,6 +34,7 @@ namespace InvoicingSystem_XML.Views
                 OnPropertyChanged(nameof(ViewModel));
             }
         }
+
 
         #endregion Properties
 

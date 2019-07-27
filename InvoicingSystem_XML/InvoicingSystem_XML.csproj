@@ -74,16 +74,23 @@
     <Compile Include="Logic\Constants\Constants.cs" />
     <Compile Include="Logic\Enumerations\Direction.cs" />
     <Compile Include="Logic\Enumerations\PaymentMethod.cs" />
-    <Compile Include="Logic\Extensions\StringExtension.cs" />
+    <Compile Include="Logic\Extensions\StringExtensions.cs" />
     <Compile Include="Logic\RelayCommand.cs" />
     <Compile Include="Logic\ServiceLocation\Bootstrapper.cs" />
+    <Compile Include="Logic\Validation\CzAddressValidator.cs" />
+    <Compile Include="Logic\Validation\IAddressValidator.cs" />
+    <Compile Include="Logic\Validation\IPersonOfInterestValidator.cs" />
+    <Compile Include="Logic\Validation\InformationValidator.cs" />
     <Compile Include="Models\Address.cs" />
     <Compile Include="Models\Contractor.cs" />
     <Compile Include="Models\Customer.cs" />
-    <Compile Include="Models\Enterprenour.cs" />
+    <Compile Include="Models\PersonOfInterest.cs" />
     <Compile Include="Models\Invoice.cs" />
     <Compile Include="Models\PaymentCondition.cs" />
     <Compile Include="Properties\Annotations.cs" />
+    <Compile Include="Views\ValidationComponent.xaml.cs">
+      <DependentUpon>ValidationComponent.xaml</DependentUpon>
+    </Compile>
     <Page Include="ResourceDictionaries\Styles.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
@@ -96,7 +103,7 @@
       <DependentUpon>App.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="Strings.Designer.cs">
+    <Compile Include="Properties\Strings.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>Strings.resx</DependentUpon>
@@ -107,6 +114,10 @@
       <DependentUpon>MainView.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
+    <Page Include="Views\ValidationComponent.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs">
@@ -126,7 +137,7 @@
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
     </EmbeddedResource>
-    <EmbeddedResource Include="Strings.resx">
+    <EmbeddedResource Include="Properties\Strings.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Strings.Designer.cs</LastGenOutput>
     </EmbeddedResource>

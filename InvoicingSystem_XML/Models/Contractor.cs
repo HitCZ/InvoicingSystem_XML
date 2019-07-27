@@ -2,7 +2,7 @@
 
 namespace InvoicingSystem_XML.Models
 {
-    public class Contractor : Enterprenour
+    public class Contractor : PersonOfInterest
     {
         #region Properties
 
@@ -13,6 +13,11 @@ namespace InvoicingSystem_XML.Models
         public bool IsVatPayer { get; set; }
 
         #endregion Properties
+
+        public Contractor()
+        {
+            Address = new Address();
+        }
 
         #region Overriden Methods
 
